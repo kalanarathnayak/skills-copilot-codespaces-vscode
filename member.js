@@ -1,7 +1,7 @@
 function skillsMember() {
     return {
         restrict: 'E',
-        templateUrl: 'templates/skills-member.html',
+        templateUrl: 'modules/skills/views/member.html',
         controller: 'SkillsMemberController',
         controllerAs: 'vm',
         bindToController: true,
